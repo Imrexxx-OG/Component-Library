@@ -2,6 +2,8 @@ import React from "react"
 
 export default function Banners(){
   return (
-    <div>This is the Banners Component</div>
+    <div className="banners">
+      <h2 className="sub-header">BANNERS</h2>
+    </div>
   )
 }
