@@ -2,16 +2,25 @@
     box-sizing: border-box;
 }
 
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
 body {
     height: 100vh;
     margin: 0;
     padding: 10px;
     display: flex;
     justify-content: center;
+    background-color: antiquewhite;
 }
 
-.sub-header {
-    /* position: absolute; */
+/* .sub-header {
+    
     width: 146px;
     height: 63px;
     font-family: 'Permanent Marker';
@@ -20,4 +29,94 @@ body {
     font-size: 34px;
     line-height: 63px;
     color: #000000;
+} */
+
+.general-badge-container h2 {
+    /* Square */
+    position: absolute;
+    width: 68px;
+    height: 16px;
+
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    /* identical to box height, or 80% */
+    text-align: right;
+    color: #5E5D5D;
+
+
+}
+
+/* Banners component */
+
+.banners-container h2{
+    /* Neutral */
+    /* position: absolute; */
+    width: 173px;
+    height: 63px;
+
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44.1px;
+    line-height: 63px;
+    /* identical to box height, or 143% */
+    text-align: right;
+
+    color: #5E5D5D;
+
+
+}
+
+
+/* Card component */
+.card-container {
+    /* Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 24px 32px;
+    gap: 32px;
+
+    width: 384px;
+    height: 208px;
+
+    background: #F9FAFB;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+/* Testimonial Component */
+.testimonial-with-pic{
+    /* With overlapping image/Desktop */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+
+    position: relative;
+    width: 1358px;
+    height: 592px;
+}
+
+.testimonial-no-pic{
+    /* Simple centered/Desktop */
+    
+
+    position: relative;
+    width: 1358px;
+    height: 444px;
+    background: #F9FAFB;
+
 }
