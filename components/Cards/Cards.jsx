@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Cards(){
   return (
-    <div id="cards-component">
+    <div id="cards">
       <h1 className="sub-header">CARDS</h1>
       <div className="card-container">
         <div className="card">
