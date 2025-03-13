@@ -198,8 +198,7 @@ button.button-pink{
     padding: 0px;
     gap: 10px;
     width: 832px;
-    height: 52px;
-    background: #ECFDF5;
+    height: 48px;
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -223,8 +222,7 @@ button.button-pink{
     padding: 0px;
     gap: 10px;
     width: 832px;
-    height: 52px;
-    background: #FFFBEB;
+    height: 50px;
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -248,8 +246,7 @@ button.button-pink{
     padding: 0px;
     gap: 10px;
     width: 832px;
-    height: 52px;
-    background: #FEF2F2;
+    height: 48px;
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -273,8 +270,7 @@ button.button-pink{
     padding: 0px;
     gap: 10px;
     width: 832px;
-    height: 52px;
-    background: #EFF6FF;
+    height: 48px;
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -294,75 +290,49 @@ button.button-pink{
 
 /* Card component */
 #cards{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+    text-align: center;
 }
-
 
 .card-container {
     /* Auto layout */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 0px 24px 32px;
-    gap: 12px;
-    width: 500px;
+    gap: 22px;
+    width: 384px;
     height: 208px;
     background: #F9FAFB;
-    border: 1px solid rgb(100, 95, 95);
     border-radius: 8px;
-    padding: 10px;
     /* Inside auto layout  */
-    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 
 }
 
 /* Testimonial Component */
 .testimonial-with-pic{
-    display: flex;
-    align-items: center;
-    padding: 10px 0px;
-    border: 1px solid rgb(100, 95, 95);
-    border-radius: 8px;
-    padding: 10px;
-
-    position: relative;
-    /* width: 1358px;
-    height: 592px; */
-}
-
-.testimonial-with-pic-container{
+    /* With overlapping image/Desktop */
+    /* Auto layout */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-}
+    padding: 96px 0px;
 
-.headshot-image{
-    width: 380px;
-    display: inline-block;
+    position: relative;
+    width: 1358px;
+    height: 592px;
 }
 
 .testimonial-no-pic{
     /* Simple centered/Desktop */
+    
+
     position: relative;
-    /* width: 1358px; */
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border: 1px solid rgb(100, 95, 95);
-    border-radius: 8px;
-    padding: 10px;
+    width: 1358px;
+    height: 444px;
+    background: #F9FAFB;
 
-}
-
-.testimonial-no-pic-signature{
-    display: flex;
-    justify-content: center;
-   
-    align-items: center;
 }
