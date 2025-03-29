@@ -4,7 +4,7 @@ import Badges from "./components/Badges/Badges"
 import Banners from "./components/Banners/Banners"
 import Cards from "./components/Cards/Cards"
 import Testimonials from "./components/Testimonials/Testimonials"
-import Star from "./components/Star"
+// import Star from "./components/Star"
 
 function App() {
   return (
