@@ -54,10 +54,13 @@
   
   .badge--square {
     border-radius: 4px;
+    cursor: pointer;
+  
   }
   
   .badge--pill {
     border-radius: 9999px;
+    cursor: pointer;
   }
   
   .badge--gray {
@@ -122,6 +125,7 @@
     flex: none;
     order: 1;
     flex-grow: 1;
+    cursor: pointer;
   }
   
   .banner--success {
